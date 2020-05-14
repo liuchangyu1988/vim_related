@@ -1,4 +1,5 @@
 {
+    "vim.hlsearch": true,
     "C_Cpp.updateChannel": "Insiders",
     "window.zoomLevel": 0,
     "workbench.colorTheme": "Visual Studio Light",
@@ -8,6 +9,7 @@
     
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
+
         {
             "before":["<C-h>"],
             "after": ["<C-w>", "h"]
@@ -44,5 +46,7 @@
     "vim.statusBarColors.visualline": "",
     "vim.visualModeKeyBindings": [
     
-    ]
+    ],
+    "editor.minimap.enabled": false,
+    "vim.statusBarColors.normal": ""
 }
