@@ -1,0 +1,48 @@
+{
+    "C_Cpp.updateChannel": "Insiders",
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Visual Studio Light",
+    "git.ignoreLegacyWarning": true,
+    "editor.wordWrap": "wordWrapColumn",
+    "vim.commandLineModeKeyBindings": [
+    
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before":["<C-h>"],
+            "after": ["<C-w>", "h"]
+        },
+        {
+            "before":["<C-l>"],
+            "after": ["<C-w>", "l"]
+        },
+        {
+            "before":["<C-k>"],
+            "after": ["<C-w>", "k"]
+        },
+        {
+            "before":["<C-j>"],
+            "after": ["<C-w>", "j"]
+        },
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before":["p"],
+            "after": ["p", "g", "v", "y"]
+        },
+
+    
+    ],
+    "vim.statusBarColors.replace": "",
+    "vim.statusBarColors.visualblock": "",
+    "vim.insertModeKeyBindingsNonRecursive": [
+    
+    ],
+    "vim.commandLineModeKeyBindingsNonRecursive": [
+    
+    ],
+    "vim.statusBarColors.visualline": "",
+    "vim.visualModeKeyBindings": [
+    
+    ]
+}
