@@ -3,7 +3,7 @@
     "C_Cpp.updateChannel": "Insiders",
     "window.zoomLevel": 0,
     "git.ignoreLegacyWarning": true,
-    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrap": "on",
     "vim.commandLineModeKeyBindings": [
     
     ],
