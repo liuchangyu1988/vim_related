@@ -30,7 +30,13 @@
             "commands": [
                 "editor.action.revealDefinitionAside",
             ]
-        }
+        },
+        {
+            "before": ["<C-[>"],
+            "commands": [
+                "editor.action.revealDefinition",
+            ]
+        },
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
         {
