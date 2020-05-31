@@ -37,6 +37,12 @@
                 "editor.action.revealDefinition",
             ]
         },
+        {
+            "before": ["<C-f>"],
+            "commands": [
+                "editor.action.formatDocument",
+            ]
+        },
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
         {
