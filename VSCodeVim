@@ -2,7 +2,6 @@
     "vim.hlsearch": true,
     "C_Cpp.updateChannel": "Insiders",
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "Visual Studio Light",
     "git.ignoreLegacyWarning": true,
     "editor.wordWrap": "wordWrapColumn",
     "vim.commandLineModeKeyBindings": [
@@ -26,6 +25,12 @@
             "before":["<C-j>"],
             "after": ["<C-w>", "j"]
         },
+        {
+            "before": ["<C-]>"],
+            "commands": [
+                "editor.action.revealDefinitionAside",
+            ]
+        }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
         {
@@ -48,5 +53,9 @@
     
     ],
     "editor.minimap.enabled": false,
-    "vim.statusBarColors.normal": ""
+    "workbench.colorTheme": "Default Light+",
+    "editor.gotoLocation.multipleDefinitions": "gotoAndPeek",
+    "vim.digraphs": {
+    
+    }
 }
