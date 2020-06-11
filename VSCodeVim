@@ -56,7 +56,7 @@
         {
             "before": ["<leader>", "l"],
             "commands": [
-                "workbench.action.showCommands",
+                "workbench.action.quickOpen",
             ]
         }
     ],
