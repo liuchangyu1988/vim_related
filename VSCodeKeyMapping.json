@@ -26,6 +26,16 @@
         "when": "inFilesPicker && inQuickOpen"
     },
     {
+        "key": "shift+j",
+        "command": "workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "shift+k",
+        "command": "workbench.action.quickOpenNavigatePreviousInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
         "key": "ctrl+l",
         "command": "workbench.action.navigateBack",
         "when": "explorerViewletFocus"
