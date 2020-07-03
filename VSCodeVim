@@ -80,9 +80,15 @@
     
     ],
     "editor.minimap.enabled": false,
-    "workbench.colorTheme": "Default Light+",
+    "workbench.colorTheme": "Gruvbox Material Dark",
     "editor.gotoLocation.multipleDefinitions": "gotoAndPeek",
     "vim.digraphs": {
     
-    }
+    },
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#e788ff7c", //Currently SELECTED text
+        "editor.selectionHighlightBackground": "#ff00005b", //Same content as selection
+        "editor.findMatchBackground": "#00cc44a8", //Current SEARCH MATCH
+        "editor.findMatchHighlightBackground": "#ff7b00a1" //Other SEARCH MATCHES
+    },
 }
