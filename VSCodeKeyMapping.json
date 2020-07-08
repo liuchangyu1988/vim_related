@@ -43,5 +43,9 @@
     {
         "key": "cmd+t",
         "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "shift+h",
+        "command": "workbench.action.splitEditorDown"
     }
 ]
