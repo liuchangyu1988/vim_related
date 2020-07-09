@@ -58,6 +58,18 @@
             "commands": [
                 "workbench.action.quickOpen",
             ]
+        },
+        {
+            "before": ["<C-w>", "i"],
+            "commands": [
+                "workbench.action.splitEditorDown",
+            ]
+        },
+        {
+            "before": ["<C-w>", "q"],
+            "commands": [
+                "workbench.action.closeEditorsInGroup",
+            ]
         }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
