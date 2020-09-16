@@ -60,6 +60,12 @@
             ]
         },
         {
+            "before": ["<C-w>", "h"],
+            "commands": [
+                "workbench.action.splitEditorRight",
+            ]
+        },
+        {
             "before": ["<C-w>", "i"],
             "commands": [
                 "workbench.action.splitEditorDown",
@@ -103,5 +109,7 @@
         "editor.findMatchBackground": "#00cc44a8", //Current SEARCH MATCH
         "editor.findMatchHighlightBackground": "#ff7b00a1" //Other SEARCH MATCHES
     },
-    "files.useExperimentalFileWatcher": true
+    "files.useExperimentalFileWatcher": true,
+    "editor.renderControlCharacters": true,
+    "http.proxySupport": "off"
 }
