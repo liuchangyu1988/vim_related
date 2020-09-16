@@ -6,7 +6,7 @@
     "editor.wordWrap": "on",
     "vim.commandLineModeKeyBindings": [
     ],
-    "vim.normalModeKeyBindingsNonRecursive": [
+    "vim.normalModeKeyBindingsNonRecursive": [å
         {
             "before":["<C-h>"],
             "after": ["<C-w>", "h"]
